@@ -18,13 +18,21 @@ export default function Home() {
               Case
             </h1>
 
-            <ul>
-              <li>
-                <Check className="h-5 w-5 text-green-600" />
-                High quality, Durable material
-              </li>
-              <li>5 year print guarantee</li>
-              <li>Modern iphone phones supported</li>
+            <ul className="flex flex-col items-center mt-8 font-medium">
+              <div>
+                <li className="flex gap-1.5 bg-lime-50">
+                  <Check className="h-5 w-5 shrink-0 text-green-600" />5 year
+                  High quality, Durable material
+                </li>
+                <li className="flex gap-1.5 bg-lime-50">
+                  <Check className="h-5 w-5 shrink-0 text-green-600" />5 year
+                  print guarantee
+                </li>
+                <li className="flex gap-1.5 bg-lime-50">
+                  <Check className="h-5 w-5 shrink-0 text-green-600" />5 year
+                  Modern iphone phones supported
+                </li>
+              </div>
             </ul>
           </div>
         </MaxWidthWapper>
